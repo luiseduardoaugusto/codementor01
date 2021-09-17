@@ -14,10 +14,7 @@
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
   <div class="card">
@@ -31,20 +28,23 @@
 
     </div>
 
-    <div class="proposal">
-        <div id="icono"><img src="/images/icon-music.svg" alt=""></div>
-        <h2 id="product-name">Annual Plan</h2>
-        <p id="price-tag">$59.99/year</p>
+    <div id="proposal">
+        <div id="proposalIcono"><img src="/images/icon-music.svg" alt="icono-musica"></div>
+        <div id="proposalTitle">
+          <h2 id="product-name">Annual Plan</h2>
+          <p id="price-tag">$59.99/year</p>
+        </div>
 
-        <a id="link-opcion" href="#">Change</a>
-
+        <div id="proposalLink">
+          <a id="a-proposalLink" href="#">Change</a>
+        </div>
     </div>
 
     <div id="payment-area">
 
         <button>Proceed to Payment</button>
         <br>
-        <a href="#">Cancel Order</a>
+        <a id="linkCancel" href="#">Cancel Order</a>
 
     </div>
   </div>

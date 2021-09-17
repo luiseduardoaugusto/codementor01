@@ -5,22 +5,29 @@ body {
 }
 
 h1 {
-
-
   text-align: center;
+}
+
+h2 {
+  font-family: "Red Hat Display";
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .card {
   display: block;
   width: 450px;
-  height: 700px;
+  height: 600px;
   align-items: center;
   border-radius: 20px;
   border-color: black;
-  border: 3px;
+  border: 1px;
   position: relative;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
+  /*border-style: solid;*/
+  box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
 
 #ilustracion-card {
@@ -34,15 +41,29 @@ h1 {
   text-align: center;
   display: flex;
   margin: auto;
+  margin-bottom: 10px;
 }
 
-.proposal {
-  display: inline-block;
-  width: 355px;
+#proposal {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
   height: 95px;
-  align-items: center;
+  width: 355px;
+  background-color: #F8F9FE;
+  margin: 10px;
+  border-radius: 10px;
 }
 
+#proposalIcono {
+  margin: 10px;
+}
+
+#proposalLink {
+  padding-left: 40px;
+  align-content: right;
+}
 button {
   width: 355px;
   height: 50px;
@@ -51,5 +72,15 @@ button {
   color: white;
   font-weight: bold;
   font-size: 15px;
+  margin: 10px;
 
+}
+
+#linkCancel {
+ text-decoration: none;
+ color: #333;
+ font-weight: bold;
+font-size: 15px;
+font-family: "Red Hat Display";
+margin-bottom: 10px;
 }
