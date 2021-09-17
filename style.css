@@ -1,0 +1,55 @@
+body {
+  font-family: "Red Hat Display";
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+
+
+  text-align: center;
+}
+
+.card {
+  display: block;
+  width: 450px;
+  height: 700px;
+  align-items: center;
+  border-radius: 20px;
+  border-color: black;
+  border: 3px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#ilustracion-card {
+  border-radius: 10px 10px 0px 0px;
+}
+
+#bajada {
+  width: 300px;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.proposal {
+  display: inline-block;
+  width: 355px;
+  height: 95px;
+  align-items: center;
+}
+
+button {
+  width: 355px;
+  height: 50px;
+  border-radius: 10px;
+  background-color:#766CF1;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+
+}
